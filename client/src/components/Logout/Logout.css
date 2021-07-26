@@ -1,0 +1,25 @@
+.logout {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f9f9f9;
+}
+.button__logout {
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
+  background-color: gray;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 17px;
+}
+.button__logout:hover {
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+  border: 1px solid gray;
+  animation: ease-in 1000ms;
+}

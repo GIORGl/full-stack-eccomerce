@@ -1,0 +1,10 @@
+.banner {
+  color: white;
+  object-fit: contain;
+  height: 448px;
+}
+.fade-bottom {
+  height: 7.4rem;
+  background-image: linear-gradient(180deg, transparent, #f2f2f2, #f9f9f9);
+  margin-top: -150px;
+}

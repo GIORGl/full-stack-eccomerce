@@ -1,0 +1,29 @@
+.product img {
+  object-fit: contain;
+  max-width: 25%;
+}
+.product {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  align-items: space-between;
+}
+.product__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 20%;
+  /* background-color: red; */
+  /* border:1px solid black; */
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+
+  /* background-color: gray; */
+}
